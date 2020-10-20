@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:background="@color/SpalshColor">
+
+    <ImageView
+        android:id="@+id/memeLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/meme_up" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/splashText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="255dp"
+
+        android:text="@string/please_wait_while_we_make_everything_right_for_you"
+        android:textColor="@color/spashText"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/developerID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/developerID"
+        android:text="@string/developed_by_pratik_chakraborty"
+        android:textStyle="bold" />
+
+</RelativeLayout>
