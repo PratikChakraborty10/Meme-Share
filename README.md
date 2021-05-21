@@ -7,6 +7,8 @@
 
 Endpoint: [/gimme/{count}](https://meme-api.herokuapp.com/gimme/1)
 
+Example: https://meme-api.herokuapp.com/gimme/1
+
 > Respone
 
 ```
